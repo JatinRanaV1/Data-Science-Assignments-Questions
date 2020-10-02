@@ -13,3 +13,7 @@
              500, T5
 
 ### Q3. Develop a command line program to convert a Video File to Black & White.
+#### Run the program through command line: python Q3.py VideoFileName
+  
+### Q4. Develop a command line program to resize a Video File.
+#### Run the program through command line: python Q3.py VideoFileName X (here X is resize percentage between 1 to 99)
