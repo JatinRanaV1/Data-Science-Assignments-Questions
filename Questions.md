@@ -37,6 +37,30 @@ e.g. In Case I, the file A.csv contain two values for roll no 100. You need to c
 #### Log file: Non numeric entry for marks with file name, roll no and marks.
 ##### • “log-” + str(time.time()) + “.csv”
 ##### • e.g. → “log-20200909.csv”
-##### • A.csv, 102012, ab
-##### • B.csv, 102, x
-##### • B.csv, 119, ‘y’
+##### A.csv, 102012, ab
+##### B.csv, 102, x
+##### B.csv, 119, ‘y’
+
+## Q6. Develop a command line program to extract the features of a protein sequence file.
+### Description:
+#### • Input file contain only two columns: first column is the protein sequence and second column is class (either -ve or +ve).
+#### • Extract the feature of the sequence as given rule:
+##### --- SN = SN of sequence
+##### --- F1 = Count the number of N in sequence
+##### --- F2 = Count the number of H in sequence
+##### --- F3 = Count the number of Q in sequence
+##### --- F4 = Count the number of G in sequence
+##### --- F5 = Count the number of D in sequence
+##### --- F6 = Count the number of T in sequence
+##### --- Class = Replace '+ with 1' and '- with 0'
+### Run the program through command line: python Q5.py File1 File2 ………… FileN
+#### Result file: Merged result file
+##### ▪ “result-” + str(time.time()) + “.csv”
+##### ▪ e.g. → “result-20200909.csv”
+#### Log file: Non numeric entry for marks with file name, roll no and marks.
+##### • “log-” + str(time.time()) + “.csv”
+##### • e.g. → “log-20200909.csv”
+##### file1.csv, AGERT5DCT
+##### file1.csv, AR45GVT
+##### file2.txt, ASDR9RT
+##### file3.txt, A4ADER
