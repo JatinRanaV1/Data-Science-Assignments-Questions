@@ -64,3 +64,15 @@ e.g. In Case I, the file A.csv contain two values for roll no 100. You need to c
 ##### file1.csv, AR45GVT
 ##### file2.txt, ASDR9RT
 ##### file3.txt, A4ADER
+
+## Q7. Develop a command line program to implement the TOPSIS.
+### Description:
+#### Input/Output Files:
+##### • Input File
+###### o Input file contain three or more columns
+###### o First column is the object/variable name (e.g. M1, M2, M3, M4…...)
+###### o From 2nd to last columns contain numeric values only
+##### • Output Files
+###### o Result file contains all the columns of input file and two additional columns having 'Topsis Score' and 'Rank'
+#### Run the program through command line as: python Q7.py InputDataFile Weights Impacts ResultFileName
+##### Example: python Q7.py inputfile.csv "1,1,1,2" "+,+,-,+" result.csv
